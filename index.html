@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <div class="card" data-state="#about">
+      <div class="card-header">
+        <div
+          class="card-cover"
+          style="
+            background-image: url('https://images.unsplash.com/photo-1556691421-cf15fe27a0b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fHRlY2hub2xvZ3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+          "
+        ></div>
+        <img
+          class="card-avatar"
+          src="/profile-card/img/teundra-centered-headshot.png"
+          alt="avatar"
+        />
+        <h1 class="card-fullname">Teundra Varnes</h1>
+        <h2 class="card-jobtitle">Web Developer</h2>
+      </div>
+      <div class="card-main">
+        <div class="card-section is-active" id="about">
+          <div class="card-content">
+            <div class="card-subtitle">ABOUT</div>
+            <p class="card-desc">
+              I'm a Full Stack Web Developer and Owner/Operator of Williams
+              Collaborations, a boutique style agency that helps businesses
+              acheive their digital goals.
+            </p>
+          </div>
+          <div class="card-social">
+            <a href="https://github.com/teedevs"
+              ><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                /></svg
+            ></a>
+            <a href="https://twitter.com/T_codes"
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                /></svg
+            ></a>
+
+            <a href="www.linkedin.com/in/teundrav"
+              ><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 002.882 0z"
+                /></svg
+            ></a>
+          </div>
+        </div>
+        <div class="card-section" id="experience">
+          <div class="card-content">
+            <div class="card-subtitle">EXPERIENCE</div>
+            <div class="card-timeline">
+              <div class="card-item" data-year="Present">
+                <div class="card-item-title">
+                  Full Stack Developer Program at
+                  <span>Computer Coach Tech</span>
+                </div>
+                <div class="card-item-desc">
+                  Currently studying Python and C#
+                </div>
+              </div>
+              <div class="card-item" data-year="2019">
+                <div class="card-item-title">
+                  Owner of <span>Williams Collaborations</span>
+                </div>
+                <div class="card-item-desc">
+                  Helping business owners modernize their online presence and
+                  streamline internal systems and processes
+                </div>
+              </div>
+              <div class="card-item" data-year="2016">
+                <div class="card-item-title">
+                  Claims Adjuster at <span>Progressive Insurance</span>
+                </div>
+                <div class="card-item-desc">
+                  Managed third party injury claims specifically utilizing
+                  bodily injury coverage
+                </div>
+              </div>
+              <div class="card-item" data-year="2012">
+                <div class="card-item-title">
+                  Claims Adjuster at <span>GEICO</span>
+                </div>
+                <div class="card-item-desc">
+                  Responsible for entire claims lifecycle handling first and
+                  third party auto accidents
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-section" id="contact">
+          <div class="card-content">
+            <div class="card-subtitle">CONTACT</div>
+            <div class="card-contact-wrapper">
+              <div class="card-contact">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                Central Florida, Remote USA
+              </div>
+              <div class="card-contact">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewbox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+                  /></svg
+                >(813) 493-8812
+              </div>
+              <div class="card-contact">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <path d="M22 6l-10 7L2 6" />
+                </svg>
+                teundrav@gmail.com
+              </div>
+              <button class="contact-me">LET'S CONNECT</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-buttons">
+          <button data-section="#about" class="is-active">ABOUT</button>
+          <button data-section="#experience">EXPERIENCE</button>
+          <button data-section="#contact">CONTACT</button>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
