@@ -11,3 +11,5 @@ I plan to use it as a way to easily share my info online or in person networking
 <h4>⚙ HTML</h4>
 <h4>⚙ CSS</h4>
 <h4>⚙ JavaScript</h4>
+
+🤝🏽 Thanks for stopping by! Please give feedback and suggestions
